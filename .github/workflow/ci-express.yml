@@ -1,1 +1,13 @@
-name: CI Express
+name: CI React
+on:
+	push: 
+		branches:
+			- main
+
+jobs: 
+	ci:
+		run-on: ubuntu-latest
+		steps: 
+
+			name: Hello World
+			uses: echo Hello World Express
