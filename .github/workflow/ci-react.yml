@@ -7,7 +7,10 @@ on:
 jobs: 
 	ci:
 		run-on: ubuntu-latest
+		
 		steps: 
 
-			name: Hello World
-			uses: echo Hello World React
+			- uses: actions/checkout@v3
+
+			- name: Hello World
+			  run: echo Hello World Express
