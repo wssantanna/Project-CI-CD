@@ -1,17 +1,15 @@
 name: CI React
 
 on:
-	push: 
-    branches: [ "main" ]
-	pull_request:
-    branches: [ "main" ]
+ push: 
+  branches: [ "main" ]
+ pull_request:
+   branches: [ "main" ]
 
 jobs: 
-	build:
-		run-on: ubuntu-latest
-		steps: 
-
-			- uses: actions/checkout@v3
-
-			- name: Hello World
-			  run: echo Hello World React
+ build:
+  run-on: ubuntu-latest
+   steps: 
+    - uses: actions/checkout@v3
+    - name: Hello World
+		  run: echo Hello World React
