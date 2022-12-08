@@ -1,4 +1,5 @@
 name: CI React
+
 on:
 	push: 
 		branches: [ "main" ]
