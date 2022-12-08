@@ -1,13 +1,13 @@
 name: CI React
 on:
 	push: 
-		branches:
-			- main
+		branches: [ "main" ]
+
 
 jobs: 
 	ci:
 		run-on: ubuntu-latest
-		
+
 		steps: 
 
 			- uses: actions/checkout@v3
