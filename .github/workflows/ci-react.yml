@@ -2,7 +2,8 @@ name: CI React
 
 on:
 	push: 
-		branches: [ "main" ]
+		branches: 
+			- main
 
 jobs: 
 	ci:
